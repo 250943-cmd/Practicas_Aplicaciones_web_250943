@@ -1,0 +1,339 @@
+/*Esto es un comentario en CSS*/
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body/*Selector de componente de la pagina*/
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #ccc;
+    line-height: 1.6; /*Espacio entre lineas*/
+    /*margin: 1000px;
+    background-color: red;
+    border-style: solid;
+    border-width: 15px;
+    padding: 50;*/
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15,23,42,0.45);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    z-index: 1000;
+    transition: 0.3s;
+
+}
+
+nav h2{
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: tomato;
+}
+
+/*<!-- ================== -->
+    <!-- PARALAX GENERAL -->
+    <!-- ================== -->
+    <nav id="menu"> <!-- Etiqueta de semantica con el atributo id-->*/
+
+.parallax {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+/*capa oscura*/
+.parallax::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.38);
+}
+
+/*contenido sobre el fondo */
+.paralax > *{
+    position: relative;
+    z-index: 2;
+}
+
+/*Esto es un comentario en CSS */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: #ccc;
+  line-height: 1.6; /*Espacio entre líneas*/
+  /*border-color: red;
+    border-style: dotted;
+    border-width: 15px;
+    padding: 50px;*/
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+nav h2 {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: rgb(44, 174, 235);
+}
+
+/*PARALLAX GENERAL*/
+.parallax {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:rgb(0,0,0,0.30);
+}
+
+.parallax > *{
+    position: relative;
+    z-index: 2;
+}
+
+.parallax-1{
+  background-image: 
+  url("../assets/images/imagen1.jpg");
+}
+
+.parallax-2{
+  background-image: 
+  url("../assets/images/imagen2.jpg");
+}
+
+.parallax-3{
+  background-image: 
+  url("../assets/images/imagen3.jpg");
+}
+
+.parallax-4{
+  background-image: 
+  url("../assets/images/imagen4.jpg");
+}
+
+.profile-img{
+  width: clamp(240px, 20vmin, 300px);
+  height: clamp(240px, 20vmin, 300px);
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 10px 30px rgba(184, 151, 216, 0.18);
+}
+/*GLASS EFFECT*/
+.glass{
+  background: rgba(20, 30, 50, 0.38);
+  color: white;
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 24px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+
+.hero-card h1{
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.hero-card p{
+  font-size: 1.2rem;
+}
+
+/* Modifica tu regla .hero-card existente para que use Flexbox */
+.hero-card {
+  max-width: 850px; /* Aumentado ligeramente para dar espacio al diseño horizontal */
+  padding: 45px;
+  display: flex;
+  align-items: center; /* Alinea verticalmente la imagen y el texto al centro */
+  gap: 40px;           /* Añade una separación de 40px entre la imagen y el texto */
+  text-align: left;    /* Cambiado de center a left para que el texto luzca mejor a la derecha */
+}
+
+/* Agrega esta nueva regla para el contenedor del texto */
+.hero-content {
+  flex: 1;             /* Hace que el texto ocupe todo el espacio restante disponible */
+}
+
+/* Modifica tu bloquequote existente para remover el centrado automático (margin auto) */
+blockquote {
+  margin: 25px 0;      /* Ajustado a 0 en los lados para alinearse a la izquierda */
+  max-width: 500px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+
+.boton{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 30px;
+  background: rgba(152, 223, 245, 0.9);
+  color: #111827;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton:hover{
+  transform:translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  background-color: rgb(71, 157, 255);
+  color: white;
+}
+
+.seccion{
+    min-height: 40vh;
+    padding: 80px 8%;
+}
+.seccion h2{
+    text-align: center;
+    font-size: 2.4 rem;
+    margin-bottom: 45px;
+}
+
+/*CONTENEDORES*/
+.contenedor{
+    max-width: 1100px;
+    margin: auto;
+}
+
+/*colores solidos alternados*/
+.solido-1{
+    background: #f8fafc;
+}
+.solido-2{
+    background: #111827;
+    color: white;
+}
+.solido-3{
+    background: #e0f2fe;
+}
+
+.solido-4{
+    background: #1e293b;
+    color: white;
+}
+.redes{
+    background: #f1f5f9;
+}
+
+.card{
+    background: rgba(255, 255,255, 0.88);
+    color: #222;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0, 0,0.12) ;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(30, 41, 59, 0.80);
+
+}
+
+/*<!-- ================================= -->
+<!-- DATOS PERSONALES -->
+<!-- ================================= -->*/
+.datos
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.datos article
+{
+    padding: 20px;
+    text-align: center;
+    background: blueviolet;
+    border-radius: 18px;
+    box-shadow: 0 10px 20px rgba(0,0, 0,0.12) ;
+
+}
