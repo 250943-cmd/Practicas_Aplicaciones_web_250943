@@ -408,11 +408,16 @@ blockquote {
     transform: translateY(-8px) scale(1.05);
     background: linear-gradient(
         145deg,
-        #2563eb,
-        #6e9bee
+        #013dbe,
+        #da0404
     );
 }
 
 .redes-sociales svg {
     width: 36px;
 }
+.cinco {
+    grid-template-columns:
+     repeat(5, 1fr);
+}
+
