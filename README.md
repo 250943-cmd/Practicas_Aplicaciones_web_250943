@@ -7,8 +7,8 @@ Periodo:Septiembre -Diciembre 2026
 ---
 
 # Práctica 02: Desarrollo de un Perfil Personal Web Responsivo
-Estudiante: [Tu Nombre Completo]  
-Asignatura: [Nombre de la Materia]  
+Estudiante: [Yair Sampayo Viveros]  
+Asignatura: [Aplicacione Web]  
 
 ---
 
@@ -89,24 +89,29 @@ El documento `index.html` se estructuró con las siguientes etiquetas semántica
 
 ## 📸 Capturas de Pantalla
 
-* **Captura 1 - Vista de Escritorio General:**  
-  `![Vista Escritorio](./Practica03/assets/images/CAP_1.png)`
+* **Captura 1 - Vista de Escritorio General:**
 
-* **Captura 2 - Efecto Parallax y Transiciones:**  
-  `![Efecto Parallax](assets/images/CAP_2.png)`
+  ![Vista Escritorio](./Practica03/assets/images/CAP_1.png)
 
-* **Captura 3 - Carrusel Multimedia (Películas y Música):**  
-  `![Carrusel de Intereses](assets/images/CAP_3.png)`
+* **Captura 2 - Efecto Parallax y Transiciones:**
 
-* **Captura 4 - Ventana Modal Activa (Reproducción de Video/PDF):**  
-  `![Ventana Modal Abierta](assets/images/CAP_4.png)`
+  ![Efecto Parallax](./Practica03/assets/images/CAP_2.png)
 
-* **Captura 5 - Adaptación Responsiva (Vista en Celular):**  
-  `![Vista Móvil](assets/images/CAP_5.png)`
+* **Captura 3 - Carrusel Multimedia (Películas y Música):**
 
-* **Captura 6 - Menú de Navegación Desplegable (Mobile):**  
-  `![Menú Responsivo](assets/images/CAP_6.png)`
+  ![Carrusel de Intereses](./Practica03/assets/images/CAP_3.png)
 
+* **Captura 4 - Ventana Modal Activa (Reproducción de Video/PDF):**
+
+  ![Ventana Modal Abierta](./Practica03/assets/images/CAP_4.png)
+
+* **Captura 5 - Adaptación Responsiva (Vista en Celular):**
+
+  ![Vista Móvil](./Practica03/assets/images/CAP_5.png)
+
+* **Captura 6 - Menú de Navegación Desplegable (Mobile):**
+
+  ![Menú Responsivo](./Practica03/assets/images/CAP_6.png)
 ## 🏁 Conclusiones
 El desarrollo de esta práctica permitió consolidar la importancia del HTML semántico para el SEO y la accesibilidad web. CSS Grid y Flexbox demostraron ser herramientas indispensables para construir estructuras complejas de forma eficiente, mientras que el uso de `clamp()` optimizó el flujo de diseño responsivo. Finalmente, la implementación de JavaScript nativo para los modales y el carrusel reforzó el entendimiento de la manipulación del DOM y el control de eventos sin depender de librerías externas.
 
